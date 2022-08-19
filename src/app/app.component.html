@@ -1,0 +1,38 @@
+<h1>servidor de desarrollo de angular</h1>
+<p>
+  Todo cambio que usted haga, sera actualizado sera actualizado
+</p>
+<h2>Hola mundo</h2>
+<h2>a</h2>
+<h1>Angular 1: String interpolations</h1>
+<p>
+  hola me llamo {{ nombre }} {{ apellido }} y mido {{ altura }}
+  mi edad es de {{ edad }} y estoy vivo? {{ estaVivo }}
+</p>
+<h2>pipes</h2>
+<p>
+  {{ nombre | uppercase }}
+  {{ nombre | lowercase }}
+</p>
+<p>
+  la suma de 25 + 25 es {{ sumarDosNumeros(25,25)}}
+</p>
+<p>
+  la dividir 25 / 5 es {{ dividirDosNumeros(25,5) }}
+</p>
+<p>
+  la resta de 25 - 5 es {{ restarDosNumeros(25,5) }}
+</p>
+<p>
+  La multiplicacion de 25 * 5 es {{ multiplicarDosNumeros(25,5) }}
+</p>
+<h2>Angular 2 : event Binding</h2>
+<p>
+  Para poder capturar eventos, usted debe saber que evento quiere, a dicho evento
+  le quitara la palabra "on" y lo encerrara en ().
+</p>
+<button (click)="saludar()">
+  Pinchame UwU
+</button>
+<button (click)="sumarDos()">Sumar Dos</button>
+<h2>{{ resultado }}</h2>
